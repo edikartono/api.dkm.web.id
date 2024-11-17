@@ -1,0 +1,12 @@
+CRITICAL - 2024-11-17 06:29:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "imam_khotib/edit.php"
+[Method: GET, Route: imam-khotib/edit/12]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/ImamKhotibController.php(46): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ImamKhotibController->edit()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
